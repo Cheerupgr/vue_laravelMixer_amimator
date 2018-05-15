@@ -15,5 +15,8 @@
   "devDependencies": {
     "laravel-mix": "^2.1.11",
     "vue": "^2.5.13"
+  },
+  "dependencies": {
+    "animejs": "^2.2.0"
   }
 }
