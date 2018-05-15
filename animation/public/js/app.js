@@ -977,17 +977,21 @@ if (false) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__(60)
+}
 var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = __webpack_require__(22)
 /* template */
-var __vue_template__ = __webpack_require__(23)
+var __vue_template__ = __webpack_require__(62)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
-var __vue_styles__ = null
+var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = null
+var __vue_scopeId__ = "data-v-1ecacd46"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
@@ -1025,6 +1029,118 @@ module.exports = Component.exports
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_animejs__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_animejs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_animejs__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -1038,52 +1154,24 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 
-/* harmony default export */ __webpack_exports__["default"] = ({});
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    mounted: function mounted() {
+        // let path = anime.path(this.$refs.path)
+
+        // anime({
+        //     targets: this.$refs.woman,
+        //     translateX: path('x'),
+        //     translateY: path('y'),
+        //     easing: 'linear',
+        //     duration: 2000
+        // })
+    }
+});
 
 /***/ }),
-/* 23 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "win-height" }, [
-      _c("div", { staticClass: "inner-content" }, [
-        _c("div", { staticClass: "text-wrap" }, [
-          _c("strong", { staticClass: "text" }, [
-            _vm._v("are as varied "),
-            _c("br"),
-            _vm._v("as the people in them")
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "img img-xl" }, [
-          _c("img", {
-            attrs: { src: "/resources/assets/images/illustration02.svg" }
-          })
-        ])
-      ])
-    ])
-  }
-]
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-1ecacd46", module.exports)
-  }
-}
-
-/***/ }),
+/* 23 */,
 /* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1456,7 +1544,7 @@ if (false) {
 var disposed = false
 var normalizeComponent = __webpack_require__(0)
 /* script */
-var __vue_script__ = null
+var __vue_script__ = __webpack_require__(63)
 /* template */
 var __vue_template__ = __webpack_require__(30)
 /* template functional */
@@ -1504,28 +1592,1595 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "win-height" }, [
+    _c("div", { staticClass: "inner-content" }, [
+      _vm._m(0),
+      _vm._v(" "),
+      _c("div", { staticClass: "img" }, [
+        _c(
+          "svg",
+          {
+            attrs: {
+              xmlns: "http://www.w3.org/2000/svg",
+              "xmlns:xlink": "http://www.w3.org/1999/xlink",
+              width: "691px",
+              height: "223px",
+              viewBox: "0 0 691 223",
+              version: "1.1"
+            }
+          },
+          [
+            _c("title", [_vm._v("Illustration")]),
+            _vm._v(" "),
+            _c("desc", [_vm._v("Created with Sketch.")]),
+            _vm._v(" "),
+            _c("defs"),
+            _vm._v(" "),
+            _c(
+              "g",
+              {
+                attrs: {
+                  id: "Mayven-2.0",
+                  stroke: "none",
+                  "stroke-width": "1",
+                  fill: "none",
+                  "fill-rule": "evenodd"
+                }
+              },
+              [
+                _c(
+                  "g",
+                  {
+                    attrs: {
+                      id: "The-Teams-We-Help",
+                      transform: "translate(-375.000000, -4216.000000)",
+                      stroke: "#FFFFFF",
+                      "stroke-width": "2"
+                    }
+                  },
+                  [
+                    _c(
+                      "g",
+                      {
+                        attrs: {
+                          id: "6",
+                          transform: "translate(0.000000, 3820.000000)"
+                        }
+                      },
+                      [
+                        _c(
+                          "g",
+                          {
+                            attrs: {
+                              id: "Content",
+                              transform: "translate(336.000000, 209.000000)"
+                            }
+                          },
+                          [
+                            _c(
+                              "g",
+                              {
+                                attrs: {
+                                  id: "Illustration",
+                                  transform: "translate(39.000000, 188.000000)"
+                                }
+                              },
+                              [
+                                _c(
+                                  "g",
+                                  {
+                                    attrs: {
+                                      id: "Row",
+                                      transform:
+                                        "translate(0.000000, 160.000000)"
+                                    }
+                                  },
+                                  [
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person1",
+                                        attrs: { opacity: "0" }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person2",
+                                        attrs: {
+                                          opacity: "0",
+                                          transform:
+                                            "translate(60.000000, 0.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person3",
+                                        attrs: {
+                                          opacity: "0",
+                                          transform:
+                                            "translate(120.000000, 0.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person4",
+                                        attrs: {
+                                          opacity: "0",
+                                          transform:
+                                            "translate(180.000000, 0.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person5",
+                                        attrs: {
+                                          opacity: "0",
+                                          transform:
+                                            "translate(240.000000, 0.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person6",
+                                        attrs: {
+                                          opacity: "0",
+                                          transform:
+                                            "translate(300.000000, 0.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person7",
+                                        attrs: {
+                                          opacity: "0",
+                                          transform:
+                                            "translate(360.000000, 0.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person8",
+                                        attrs: {
+                                          opacity: "0",
+                                          transform:
+                                            "translate(420.000000, 0.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person9",
+                                        attrs: {
+                                          opacity: "0",
+                                          transform:
+                                            "translate(480.000000, 0.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person10",
+                                        attrs: {
+                                          opacity: "0",
+                                          transform:
+                                            "translate(540.000000, 0.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person11",
+                                        attrs: {
+                                          opacity: "0",
+                                          transform:
+                                            "translate(600.000000, 0.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person12",
+                                        attrs: {
+                                          opacity: "0",
+                                          transform:
+                                            "translate(660.000000, 0.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "g",
+                                  {
+                                    attrs: {
+                                      id: "Row",
+                                      transform:
+                                        "translate(0.000000, 80.000000)"
+                                    }
+                                  },
+                                  [
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person13",
+                                        attrs: { opacity: "0" }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person14",
+                                        attrs: {
+                                          opacity: "0",
+                                          transform:
+                                            "translate(60.000000, 0.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person15",
+                                        attrs: {
+                                          opacity: "0",
+                                          transform:
+                                            "translate(120.000000, 0.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person16",
+                                        attrs: {
+                                          opacity: "0",
+                                          transform:
+                                            "translate(180.000000, 0.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person17",
+                                        attrs: {
+                                          opacity: "0",
+                                          transform:
+                                            "translate(240.000000, 0.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person18",
+                                        attrs: {
+                                          opacity: "0",
+                                          transform:
+                                            "translate(300.000000, 0.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person19",
+                                        attrs: {
+                                          opacity: "0",
+                                          transform:
+                                            "translate(360.000000, 0.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person20",
+                                        attrs: {
+                                          opacity: "0",
+                                          transform:
+                                            "translate(420.000000, 0.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person21",
+                                        attrs: {
+                                          opacity: "0",
+                                          transform:
+                                            "translate(480.000000, 0.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person22",
+                                        attrs: {
+                                          opacity: "0",
+                                          transform:
+                                            "translate(540.000000, 0.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person23",
+                                        attrs: {
+                                          opacity: "0",
+                                          transform:
+                                            "translate(600.000000, 0.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "g",
+                                      {
+                                        ref: "Person24",
+                                        attrs: {
+                                          opacity: "0",
+                                          transform:
+                                            "translate(660.000000, 0.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("ellipse", {
+                                          attrs: {
+                                            id: "Oval-10",
+                                            cx: "15.5",
+                                            cy: "7",
+                                            rx: "7.5",
+                                            ry: "7"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                            id: "Path-15"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                            id: "Path-15",
+                                            transform:
+                                              "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                          }
+                                        })
+                                      ]
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c("g", { attrs: { id: "Row" } }, [
+                                  _c(
+                                    "g",
+                                    {
+                                      ref: "Person25",
+                                      attrs: { opacity: "0" }
+                                    },
+                                    [
+                                      _c("ellipse", {
+                                        attrs: {
+                                          id: "Oval-10",
+                                          cx: "15.5",
+                                          cy: "7",
+                                          rx: "7.5",
+                                          ry: "7"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                          id: "Path-15"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                          id: "Path-15",
+                                          transform:
+                                            "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                        }
+                                      })
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "g",
+                                    {
+                                      ref: "Person26",
+                                      attrs: {
+                                        opacity: "0",
+                                        transform:
+                                          "translate(60.000000, 0.000000)"
+                                      }
+                                    },
+                                    [
+                                      _c("ellipse", {
+                                        attrs: {
+                                          id: "Oval-10",
+                                          cx: "15.5",
+                                          cy: "7",
+                                          rx: "7.5",
+                                          ry: "7"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                          id: "Path-15"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                          id: "Path-15",
+                                          transform:
+                                            "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                        }
+                                      })
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "g",
+                                    {
+                                      ref: "Person27",
+                                      attrs: {
+                                        opacity: "0",
+                                        transform:
+                                          "translate(120.000000, 0.000000)"
+                                      }
+                                    },
+                                    [
+                                      _c("ellipse", {
+                                        attrs: {
+                                          id: "Oval-10",
+                                          cx: "15.5",
+                                          cy: "7",
+                                          rx: "7.5",
+                                          ry: "7"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                          id: "Path-15"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                          id: "Path-15",
+                                          transform:
+                                            "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                        }
+                                      })
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "g",
+                                    {
+                                      ref: "Person28",
+                                      attrs: {
+                                        opacity: "0",
+                                        transform:
+                                          "translate(180.000000, 0.000000)"
+                                      }
+                                    },
+                                    [
+                                      _c("ellipse", {
+                                        attrs: {
+                                          id: "Oval-10",
+                                          cx: "15.5",
+                                          cy: "7",
+                                          rx: "7.5",
+                                          ry: "7"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                          id: "Path-15"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                          id: "Path-15",
+                                          transform:
+                                            "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                        }
+                                      })
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "g",
+                                    {
+                                      ref: "Person29",
+                                      attrs: {
+                                        opacity: "0",
+                                        transform:
+                                          "translate(240.000000, 0.000000)"
+                                      }
+                                    },
+                                    [
+                                      _c("ellipse", {
+                                        attrs: {
+                                          id: "Oval-10",
+                                          cx: "15.5",
+                                          cy: "7",
+                                          rx: "7.5",
+                                          ry: "7"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                          id: "Path-15"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                          id: "Path-15",
+                                          transform:
+                                            "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                        }
+                                      })
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "g",
+                                    {
+                                      ref: "Person30",
+                                      attrs: {
+                                        opacity: "0",
+                                        transform:
+                                          "translate(300.000000, 0.000000)"
+                                      }
+                                    },
+                                    [
+                                      _c("ellipse", {
+                                        attrs: {
+                                          id: "Oval-10",
+                                          cx: "15.5",
+                                          cy: "7",
+                                          rx: "7.5",
+                                          ry: "7"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                          id: "Path-15"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                          id: "Path-15",
+                                          transform:
+                                            "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                        }
+                                      })
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "g",
+                                    {
+                                      ref: "Person31",
+                                      attrs: {
+                                        opacity: "0",
+                                        transform:
+                                          "translate(360.000000, 0.000000)"
+                                      }
+                                    },
+                                    [
+                                      _c("ellipse", {
+                                        attrs: {
+                                          id: "Oval-10",
+                                          cx: "15.5",
+                                          cy: "7",
+                                          rx: "7.5",
+                                          ry: "7"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                          id: "Path-15"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                          id: "Path-15",
+                                          transform:
+                                            "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                        }
+                                      })
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "g",
+                                    {
+                                      ref: "Person32",
+                                      attrs: {
+                                        opacity: "0",
+                                        transform:
+                                          "translate(420.000000, 0.000000)"
+                                      }
+                                    },
+                                    [
+                                      _c("ellipse", {
+                                        attrs: {
+                                          id: "Oval-10",
+                                          cx: "15.5",
+                                          cy: "7",
+                                          rx: "7.5",
+                                          ry: "7"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                          id: "Path-15"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                          id: "Path-15",
+                                          transform:
+                                            "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                        }
+                                      })
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "g",
+                                    {
+                                      ref: "Person33",
+                                      attrs: {
+                                        opacity: "0",
+                                        transform:
+                                          "translate(480.000000, 0.000000)"
+                                      }
+                                    },
+                                    [
+                                      _c("ellipse", {
+                                        attrs: {
+                                          id: "Oval-10",
+                                          cx: "15.5",
+                                          cy: "7",
+                                          rx: "7.5",
+                                          ry: "7"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                          id: "Path-15"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                          id: "Path-15",
+                                          transform:
+                                            "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                        }
+                                      })
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "g",
+                                    {
+                                      ref: "Person34",
+                                      attrs: {
+                                        opacity: "0",
+                                        transform:
+                                          "translate(540.000000, 0.000000)"
+                                      }
+                                    },
+                                    [
+                                      _c("ellipse", {
+                                        attrs: {
+                                          id: "Oval-10",
+                                          cx: "15.5",
+                                          cy: "7",
+                                          rx: "7.5",
+                                          ry: "7"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                          id: "Path-15"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                          id: "Path-15",
+                                          transform:
+                                            "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                        }
+                                      })
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "g",
+                                    {
+                                      ref: "Person35",
+                                      attrs: {
+                                        opacity: "0",
+                                        transform:
+                                          "translate(600.000000, 0.000000)"
+                                      }
+                                    },
+                                    [
+                                      _c("ellipse", {
+                                        attrs: {
+                                          id: "Oval-10",
+                                          cx: "15.5",
+                                          cy: "7",
+                                          rx: "7.5",
+                                          ry: "7"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                          id: "Path-15"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                          id: "Path-15",
+                                          transform:
+                                            "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                        }
+                                      })
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "g",
+                                    {
+                                      ref: "Person36",
+                                      attrs: {
+                                        opacity: "0",
+                                        transform:
+                                          "translate(660.000000, 0.000000)"
+                                      }
+                                    },
+                                    [
+                                      _c("ellipse", {
+                                        attrs: {
+                                          id: "Oval-10",
+                                          cx: "15.5",
+                                          cy: "7",
+                                          rx: "7.5",
+                                          ry: "7"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M25.3865238,19.0136277 L21.1644256,61 L23.5839684,61 L23.5839684,44.223603 L27.4879531,43.4609825 L29.9438465,22.9469896 L25.3865238,19.0136277 Z",
+                                          id: "Path-15"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        attrs: {
+                                          d:
+                                            "M5.32770024,19.0136277 L1.10560209,61 L3.52514486,61 L3.52514486,44.223603 L7.42912953,43.4609825 L9.885023,22.9469896 L5.32770024,19.0136277 Z",
+                                          id: "Path-15",
+                                          transform:
+                                            "translate(5.470588, 39.500000) scale(-1, 1) translate(-5.470588, -39.500000) "
+                                        }
+                                      })
+                                    ]
+                                  )
+                                ])
+                              ]
+                            )
+                          ]
+                        )
+                      ]
+                    )
+                  ]
+                )
+              ]
+            )
+          ]
+        )
+      ])
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "win-height" }, [
-      _c("div", { staticClass: "inner-content" }, [
-        _c("div", { staticClass: "text-wrap" }, [
-          _c("strong", { staticClass: "text" }, [
-            _vm._v("Products that are offered "),
-            _c("br"),
-            _vm._v("direct to consumer")
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "img" }, [
-          _c("img", {
-            attrs: { src: "/resources/assets/images/illustration05.svg" }
-          })
-        ])
+    return _c("div", { staticClass: "text-wrap" }, [
+      _c("strong", { staticClass: "text" }, [
+        _vm._v("Products that are offered "),
+        _c("br"),
+        _vm._v("direct to consumer")
       ])
     ])
   }
@@ -2610,6 +4265,1263 @@ d:A.apply($jscomp$this,d)}}(f)),f={type:f.type};return b}(),ha={css:function(a,c
 function(a){a=P(a);for(var c=v.length;c--;)for(var d=v[c],b=d.animations,f=b.length;f--;)u(a,b[f].animatable.target)&&(b.splice(f,1),b.length||d.pause())};q.getValue=K;q.path=function(a,c){var d=h.str(a)?e(a)[0]:a,b=c||100;return function(a){return{el:d,property:a,totalLength:N(d)*(b/100)}}};q.setDashoffset=function(a){var c=N(a);a.setAttribute("stroke-dasharray",c);return c};q.bezier=A;q.easings=Q;q.timeline=function(a){var c=q(a);c.pause();c.duration=0;c.add=function(d){c.children.forEach(function(a){a.began=
 !0;a.completed=!0});m(d).forEach(function(b){var d=z(b,D(S,a||{}));d.targets=d.targets||a.targets;b=c.duration;var e=d.offset;d.autoplay=!1;d.direction=c.direction;d.offset=h.und(e)?b:L(e,b);c.began=!0;c.completed=!0;c.seek(d.offset);d=q(d);d.began=!0;d.completed=!0;d.duration>b&&(c.duration=d.duration);c.children.push(d)});c.seek(0);c.reset();c.autoplay&&c.restart();return c};return c};q.random=function(a,c){return Math.floor(Math.random()*(c-a+1))+a};return q});
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+
+/***/ }),
+/* 60 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(61);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(12)("2ec6a1e1", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-1ecacd46\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Comp3.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-1ecacd46\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Comp3.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 61 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(11)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.square[data-v-1ecacd46] {\n    width: 10px;\n    height: 10px;\n    background: blue;\n}\n.st0[data-v-1ecacd46]{fill:none;stroke:#FFFFFF;stroke-width:2;\n}\n.st1[data-v-1ecacd46]{fill:#FFFFFF;\n}\n.st2[data-v-1ecacd46]{opacity:0.2;fill:#FFFFFF;enable-background:new;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 62 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "win-height" }, [
+    _c("div", { staticClass: "inner-content" }, [
+      _vm._m(0),
+      _vm._v(" "),
+      _c("div", { staticClass: "img img-xl" }, [
+        _c(
+          "svg",
+          {
+            staticStyle: { "enable-background": "new 246 300 1440 193" },
+            attrs: {
+              xmlns: "http://www.w3.org/2000/svg",
+              "xmlns:xlink": "http://www.w3.org/1999/xlink",
+              version: "1.1",
+              id: "Layer_1",
+              x: "0px",
+              y: "0px",
+              viewBox: "246 300 1440 193",
+              "xml:space": "preserve"
+            }
+          },
+          [
+            _c("title", [_vm._v("Illustration")]),
+            _vm._v(" "),
+            _c("desc", [_vm._v("Created with Sketch.")]),
+            _vm._v(" "),
+            _c("g", { attrs: { id: "Mayven-2.0" } }, [
+              _c(
+                "g",
+                {
+                  attrs: {
+                    id: "The-Teams-We-Help",
+                    transform: "translate(0.000000, -1984.000000)"
+                  }
+                },
+                [
+                  _c(
+                    "g",
+                    {
+                      attrs: {
+                        id: "_x33_",
+                        transform: "translate(-16.000000, 1528.000000)"
+                      }
+                    },
+                    [
+                      _c(
+                        "g",
+                        {
+                          attrs: {
+                            id: "Content",
+                            transform: "translate(0.000000, 195.000000)"
+                          }
+                        },
+                        [
+                          _c(
+                            "g",
+                            {
+                              attrs: {
+                                id: "Illustration",
+                                transform: "translate(0.000000, 262.000000)"
+                              }
+                            },
+                            [
+                              _c(
+                                "g",
+                                {
+                                  attrs: {
+                                    transform: "translate(129.000000, 0.000000)"
+                                  }
+                                },
+                                [
+                                  _c(
+                                    "g",
+                                    {
+                                      attrs: {
+                                        id: "Man",
+                                        transform:
+                                          "translate(168.000000, 79.000000)"
+                                      }
+                                    },
+                                    [
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-90",
+                                          d:
+                                            "M247,351.7v-7.8c0.2-4,1.9-6.5,5.2-7.5c3.3-0.9,6.8-1.8,10.5-2.5"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("polygon", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-92",
+                                          points:
+                                            "276.9,331.3 279.7,335.3 275.7,339.1 264.5,331.5 261.6,335.3 266.3,339.1                 "
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-91",
+                                          d:
+                                            "M294,351.4v-8.6c-0.1-2.6-1.5-4.6-4.2-6s-6.2-2.3-10.6-2.5"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("polyline", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-93",
+                                          points:
+                                            "267,339.5 268.6,343.3 265.1,352.2        "
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("polyline", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-94",
+                                          points:
+                                            "274.9,338.9 273,343.3 274.9,351.2        "
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-95",
+                                          d:
+                                            "M264.9,331.3v-2.9c-2.9-1.4-4.4-4.1-4.4-8"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-96",
+                                          d:
+                                            "M276.8,331.1v-2.8c2.7-1.1,4.1-3.8,4.1-8"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-97",
+                                          d:
+                                            "M259.6,316.7c-0.7-4-0.9-6.6-0.6-7.8c0.4-1.8,1.8-8.2,11.7-8.2s11.2,5.4,11.6,8.2         c0.3,1.9,0.3,4.5,0,7.8"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-98",
+                                          d: "M264.1,307.8c2.4,4.9,7.1,7.6,14,8"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-99",
+                                          d:
+                                            "M259.5,315.7c-2.2,0.2-3.1,1.3-2.8,3.3c0.3,2,1.3,2.8,3.1,2.4"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-100",
+                                          d:
+                                            "M282,315.6c1.9,0.3,2.9,1.4,2.8,3.1c-0.1,1.7-1.2,2.6-3.2,2.6"
+                                        }
+                                      })
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "g",
+                                    {
+                                      attrs: {
+                                        id: "Man_1_",
+                                        transform:
+                                          "translate(509.000000, 139.000000)"
+                                      }
+                                    },
+                                    [
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-90_1_",
+                                          d:
+                                            "M247,351.7v-7.8c0.2-4,1.9-6.5,5.2-7.5c3.3-0.9,6.8-1.8,10.5-2.5"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("polygon", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-92_1_",
+                                          points:
+                                            "276.9,331.3 279.7,335.3 275.7,339.1 264.5,331.5 261.6,335.3 266.3,339.1                 "
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-91_1_",
+                                          d:
+                                            "M294,351.4v-8.6c-0.1-2.6-1.5-4.6-4.2-6s-6.2-2.3-10.6-2.5"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("polyline", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-93_1_",
+                                          points:
+                                            "267,339.5 268.6,343.3 265.1,352.2        "
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("polyline", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-94_1_",
+                                          points:
+                                            "274.9,338.9 273,343.3 274.9,351.2        "
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-95_1_",
+                                          d:
+                                            "M264.9,331.3v-2.9c-2.9-1.4-4.4-4.1-4.4-8"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-96_1_",
+                                          d:
+                                            "M276.8,331.1v-2.8c2.7-1.1,4.1-3.8,4.1-8"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-97_1_",
+                                          d:
+                                            "M259.6,316.7c-0.7-4-0.9-6.6-0.6-7.8c0.4-1.8,1.8-8.2,11.7-8.2s11.2,5.4,11.6,8.2         c0.3,1.9,0.3,4.5,0,7.8"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-98_1_",
+                                          d: "M264.1,307.8c2.4,4.9,7.1,7.6,14,8"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-99_1_",
+                                          d:
+                                            "M259.5,315.7c-2.2,0.2-3.1,1.3-2.8,3.3c0.3,2,1.3,2.8,3.1,2.4"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-100_1_",
+                                          d:
+                                            "M282,315.6c1.9,0.3,2.9,1.4,2.8,3.1c-0.1,1.7-1.2,2.6-3.2,2.6"
+                                        }
+                                      })
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "g",
+                                    {
+                                      attrs: {
+                                        id: "Man_2_",
+                                        transform:
+                                          "translate(840.000000, 79.000000)"
+                                      }
+                                    },
+                                    [
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-90_2_",
+                                          d:
+                                            "M247,351.7v-7.8c0.2-4,1.9-6.5,5.2-7.5c3.3-0.9,6.8-1.8,10.5-2.5"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("polygon", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-92_2_",
+                                          points:
+                                            "276.9,331.3 279.7,335.3 275.7,339.1 264.5,331.5 261.6,335.3 266.3,339.1                 "
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-91_2_",
+                                          d:
+                                            "M294,351.4v-8.6c-0.1-2.6-1.5-4.6-4.2-6s-6.2-2.3-10.6-2.5"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("polyline", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-93_2_",
+                                          points:
+                                            "267,339.5 268.6,343.3 265.1,352.2        "
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("polyline", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-94_2_",
+                                          points:
+                                            "274.9,338.9 273,343.3 274.9,351.2        "
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-95_2_",
+                                          d:
+                                            "M264.9,331.3v-2.9c-2.9-1.4-4.4-4.1-4.4-8"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-96_2_",
+                                          d:
+                                            "M276.8,331.1v-2.8c2.7-1.1,4.1-3.8,4.1-8"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-97_2_",
+                                          d:
+                                            "M259.6,316.7c-0.7-4-0.9-6.6-0.6-7.8c0.4-1.8,1.8-8.2,11.7-8.2s11.2,5.4,11.6,8.2         c0.3,1.9,0.3,4.5,0,7.8"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-98_2_",
+                                          d: "M264.1,307.8c2.4,4.9,7.1,7.6,14,8"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-99_2_",
+                                          d:
+                                            "M259.5,315.7c-2.2,0.2-3.1,1.3-2.8,3.3c0.3,2,1.3,2.8,3.1,2.4"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-100_2_",
+                                          d:
+                                            "M282,315.6c1.9,0.3,2.9,1.4,2.8,3.1c-0.1,1.7-1.2,2.6-3.2,2.6"
+                                        }
+                                      })
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "g",
+                                    {
+                                      ref: "woman",
+                                      attrs: {
+                                        id: "Woman",
+                                        transform:
+                                          "translate(0.000000, 9.000000)"
+                                      }
+                                    },
+                                    [
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-83",
+                                          d: "M256.1,346.9v6"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-83_1_",
+                                          d: "M282.1,346.9v6"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("polyline", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-84",
+                                          points:
+                                            "259.6,337.2 256,342.1 261.9,343.3 268.6,352.1 275.8,343.3 281.2,342.1          278,337.2        "
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("polyline", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-85",
+                                          points:
+                                            "262.6,326.9 262.6,334.1 268.6,350.8 275,334.1 275,326.9        "
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-86",
+                                          d:
+                                            "M260.2,330l-6.4-4.1l1.1-9.4c0-2.7,0-5.1,0-7.4c0-3.3,3.8-8.9,14.2-8.9         c10.4,0,12.7,6.2,13.5,9.3c0.5,2,0.5,4.3,0,6.7l1.2,9.8l-6,4.1"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-87",
+                                          d:
+                                            "M264.9,308.3c1.6,3.9,6.1,7.3,13.4,10.2"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-88",
+                                          d: "M268,312.7c-2,2.9-5,4.9-9,5.9"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-89",
+                                          d:
+                                            "M259.6,317.5c0.9,8.3,4,12.4,9.3,12.4c5.3,0,8.2-4.1,8.9-12.4"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-101",
+                                          d:
+                                            "M275.7,333.2c5.6,0.2,9.6,1.7,11.9,4.4c2.3,2.8,3.4,6.9,3.4,12.4"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-81",
+                                          d:
+                                            "M262,333.2c-10,0.3-15.1,5.8-15.1,16.4"
+                                        }
+                                      })
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "g",
+                                    {
+                                      attrs: {
+                                        id: "Woman_1_",
+                                        transform:
+                                          "translate(369.000000, 30.000000)"
+                                      }
+                                    },
+                                    [
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-83_2_",
+                                          d: "M256.1,346.9v6"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-83_3_",
+                                          d: "M282.1,346.9v6"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("polyline", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-84_1_",
+                                          points:
+                                            "259.6,337.2 256,342.1 261.9,343.3 268.6,352.1 275.8,343.3 281.2,342.1          278,337.2        "
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("polyline", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-85_1_",
+                                          points:
+                                            "262.6,326.9 262.6,334.1 268.6,350.8 275,334.1 275,326.9        "
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-86_1_",
+                                          d:
+                                            "M260.2,330l-6.4-4.1l1.1-9.4c0-2.7,0-5.1,0-7.4c0-3.3,3.8-8.9,14.2-8.9         c10.4,0,12.7,6.2,13.5,9.3c0.5,2,0.5,4.3,0,6.7l1.2,9.8l-6,4.1"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-87_1_",
+                                          d:
+                                            "M264.9,308.3c1.6,3.9,6.1,7.3,13.4,10.2"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-88_1_",
+                                          d: "M268,312.7c-2,2.9-5,4.9-9,5.9"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-89_1_",
+                                          d:
+                                            "M259.6,317.5c0.9,8.3,4,12.4,9.3,12.4c5.3,0,8.2-4.1,8.9-12.4"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-101_1_",
+                                          d:
+                                            "M275.7,333.2c5.6,0.2,9.6,1.7,11.9,4.4c2.3,2.8,3.4,6.9,3.4,12.4"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-81_1_",
+                                          d:
+                                            "M262,333.2c-10,0.3-15.1,5.8-15.1,16.4"
+                                        }
+                                      })
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "g",
+                                    {
+                                      attrs: {
+                                        id: "Woman_2_",
+                                        transform:
+                                          "translate(651.000000, 0.000000)"
+                                      }
+                                    },
+                                    [
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-83_4_",
+                                          d: "M256.1,346.9v6"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-83_5_",
+                                          d: "M282.1,346.9v6"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("polyline", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-84_2_",
+                                          points:
+                                            "259.6,337.2 256,342.1 261.9,343.3 268.6,352.1 275.8,343.3 281.2,342.1          278,337.2        "
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("polyline", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-85_2_",
+                                          points:
+                                            "262.6,326.9 262.6,334.1 268.6,350.8 275,334.1 275,326.9        "
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-86_2_",
+                                          d:
+                                            "M260.2,330l-6.4-4.1l1.1-9.4c0-2.7,0-5.1,0-7.4c0-3.3,3.8-8.9,14.2-8.9         c10.4,0,12.7,6.2,13.5,9.3c0.5,2,0.5,4.3,0,6.7l1.2,9.8l-6,4.1"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-87_2_",
+                                          d:
+                                            "M264.9,308.3c1.6,3.9,6.1,7.3,13.4,10.2"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-88_2_",
+                                          d: "M268,312.7c-2,2.9-5,4.9-9,5.9"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-89_2_",
+                                          d:
+                                            "M259.6,317.5c0.9,8.3,4,12.4,9.3,12.4c5.3,0,8.2-4.1,8.9-12.4"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-101_2_",
+                                          d:
+                                            "M275.7,333.2c5.6,0.2,9.6,1.7,11.9,4.4c2.3,2.8,3.4,6.9,3.4,12.4"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c("path", {
+                                        staticClass: "st0",
+                                        attrs: {
+                                          id: "Path-81_2_",
+                                          d:
+                                            "M262,333.2c-10,0.3-15.1,5.8-15.1,16.4"
+                                        }
+                                      })
+                                    ]
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "g",
+                                {
+                                  attrs: {
+                                    id: "Lines",
+                                    transform: "translate(0.000000, 48.000000)"
+                                  }
+                                },
+                                [
+                                  _c("rect", {
+                                    staticClass: "st1",
+                                    attrs: {
+                                      id: "Rectangle-68",
+                                      x: "246",
+                                      y: "310",
+                                      width: "131",
+                                      height: "2"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("rect", {
+                                    staticClass: "st1",
+                                    attrs: {
+                                      id: "Rectangle-68_1_",
+                                      x: "466",
+                                      y: "381",
+                                      width: "79",
+                                      height: "2"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("rect", {
+                                    staticClass: "st1",
+                                    attrs: {
+                                      id: "Rectangle-68-Copy",
+                                      x: "590",
+                                      y: "381",
+                                      width: "109",
+                                      height: "2"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("rect", {
+                                    staticClass: "st1",
+                                    attrs: {
+                                      id: "Rectangle-68-Copy_1_",
+                                      x: "931",
+                                      y: "441",
+                                      width: "49",
+                                      height: "2"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("rect", {
+                                    staticClass: "st1",
+                                    attrs: {
+                                      id: "Rectangle-69",
+                                      x: "465",
+                                      y: "310",
+                                      width: "2",
+                                      height: "73"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("rect", {
+                                    staticClass: "st1",
+                                    attrs: {
+                                      id: "Rectangle-69_1_",
+                                      x: "699",
+                                      y: "330",
+                                      width: "2",
+                                      height: "53"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("rect", {
+                                    staticClass: "st1",
+                                    attrs: {
+                                      id: "Rectangle-69_2_",
+                                      x: "980",
+                                      y: "300",
+                                      width: "2",
+                                      height: "143"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("rect", {
+                                    staticClass: "st1",
+                                    attrs: {
+                                      id: "Rectangle-69_3_",
+                                      x: "1119",
+                                      y: "300",
+                                      width: "2",
+                                      height: "83"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("rect", {
+                                    staticClass: "st1",
+                                    attrs: {
+                                      id: "Rectangle-69_4_",
+                                      x: "839",
+                                      y: "330",
+                                      width: "2",
+                                      height: "113"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("rect", {
+                                    staticClass: "st1",
+                                    attrs: {
+                                      id: "Rectangle-68_2_",
+                                      x: "419",
+                                      y: "310",
+                                      width: "47",
+                                      height: "2"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("rect", {
+                                    staticClass: "st1",
+                                    attrs: {
+                                      id: "Rectangle-68_3_",
+                                      x: "699",
+                                      y: "330",
+                                      width: "47",
+                                      height: "2"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("rect", {
+                                    staticClass: "st1",
+                                    attrs: {
+                                      id: "Rectangle-68_4_",
+                                      x: "839",
+                                      y: "441",
+                                      width: "47",
+                                      height: "2"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("rect", {
+                                    staticClass: "st1",
+                                    attrs: {
+                                      id: "Rectangle-68_5_",
+                                      x: "788",
+                                      y: "330",
+                                      width: "53",
+                                      height: "2"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("rect", {
+                                    staticClass: "st1",
+                                    attrs: {
+                                      id: "Rectangle-68_6_",
+                                      x: "981",
+                                      y: "300",
+                                      width: "47",
+                                      height: "2"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("rect", {
+                                    staticClass: "st1",
+                                    attrs: {
+                                      id: "Rectangle-68_7_",
+                                      x: "1072",
+                                      y: "300",
+                                      width: "47",
+                                      height: "2"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("rect", {
+                                    staticClass: "st1",
+                                    attrs: {
+                                      id: "Rectangle-68_8_",
+                                      x: "1120",
+                                      y: "381",
+                                      width: "97",
+                                      height: "2"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("rect", {
+                                    staticClass: "st1",
+                                    attrs: {
+                                      id: "Rectangle-68_9_",
+                                      x: "1262",
+                                      y: "381",
+                                      width: "53",
+                                      height: "2"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("rect", {
+                                    staticClass: "st2",
+                                    attrs: {
+                                      id: "Rectangle-68_10_",
+                                      x: "1312",
+                                      y: "381",
+                                      width: "53",
+                                      height: "2"
+                                    }
+                                  })
+                                ]
+                              )
+                            ]
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ]
+              )
+            ])
+          ]
+        )
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "text-wrap" }, [
+      _c("strong", { staticClass: "text" }, [
+        _vm._v("are as varied "),
+        _c("br"),
+        _vm._v("as the people in them")
+      ])
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-1ecacd46", module.exports)
+  }
+}
+
+/***/ }),
+/* 63 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_animejs__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_animejs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_animejs__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    data: function data() {
+        return {
+            persons: []
+        };
+    },
+    mounted: function mounted() {
+        var _this = this;
+
+        this.persons = [this.$refs.Person1, this.$refs.Person2, this.$refs.Person3, this.$refs.Person4, this.$refs.Person5, this.$refs.Person6, this.$refs.Person7, this.$refs.Person8, this.$refs.Person9, this.$refs.Person10, this.$refs.Person11, this.$refs.Person12, this.$refs.Person13, this.$refs.Person14, this.$refs.Person15, this.$refs.Person16, this.$refs.Person17, this.$refs.Person18, this.$refs.Person19, this.$refs.Person20, this.$refs.Person21, this.$refs.Person22, this.$refs.Person23, this.$refs.Person24, this.$refs.Person25, this.$refs.Person26, this.$refs.Person27, this.$refs.Person28, this.$refs.Person29, this.$refs.Person30, this.$refs.Person31, this.$refs.Person32, this.$refs.Person33, this.$refs.Person34, this.$refs.Person35, this.$refs.Person36];
+
+        var update = function update() {
+            var i = Math.round(Math.random() * _this.persons.length);
+            _this.highLightPerson(i);
+            setTimeout(function () {
+                update();
+            }, 500);
+        };
+
+        update();
+    },
+
+    methods: {
+        highLightPerson: function highLightPerson(index) {
+            __WEBPACK_IMPORTED_MODULE_0_animejs___default.a.timeline().add({
+                targets: this.persons[index],
+                opacity: 1,
+                duration: 500,
+                easing: 'easeInOutSine'
+            }).add({
+                targets: this.persons[index],
+                opacity: 0,
+                duration: 500,
+                easing: 'easeInOutSine'
+            });
+        }
+    }
+});
 
 /***/ })
 ],[3]);
