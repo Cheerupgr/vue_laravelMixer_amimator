@@ -3381,7 +3381,7 @@ if (false) {
 var disposed = false
 var normalizeComponent = __webpack_require__(0)
 /* script */
-var __vue_script__ = null
+var __vue_script__ = __webpack_require__(64)
 /* template */
 var __vue_template__ = __webpack_require__(36)
 /* template functional */
@@ -3429,30 +3429,214 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "win-height" }, [
-      _c("div", { staticClass: "inner-content" }, [
-        _c("div", { staticClass: "text-wrap" }, [
-          _c("strong", { staticClass: "text" }, [
-            _vm._v("So We Work to Understand Your Users")
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "img" }, [
-          _c("img", {
-            attrs: { src: "/resources/assets/images/illustration08.svg" }
-          })
+  return _c("div", { ref: "cover", staticClass: "win-height" }, [
+    _c("div", { staticClass: "inner-content" }, [
+      _c("div", { ref: "title", staticClass: "text-wrap" }, [
+        _c("strong", { staticClass: "text" }, [
+          _vm._v("So We Work to Understand Your Users")
         ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "img" }, [
+        _c(
+          "svg",
+          {
+            attrs: {
+              xmlns: "http://www.w3.org/2000/svg",
+              "xmlns:xlink": "http://www.w3.org/1999/xlink",
+              width: "310px",
+              height: "310px",
+              viewBox: "0 0 310 310",
+              version: "1.1"
+            }
+          },
+          [
+            _c("title", [_vm._v("Illustration")]),
+            _vm._v(" "),
+            _c("desc", [_vm._v("Created with Sketch.")]),
+            _vm._v(" "),
+            _c("defs"),
+            _vm._v(" "),
+            _c(
+              "g",
+              {
+                attrs: {
+                  id: "Mayven-2.0",
+                  stroke: "none",
+                  "stroke-width": "1",
+                  fill: "none",
+                  "fill-rule": "evenodd"
+                }
+              },
+              [
+                _c(
+                  "g",
+                  {
+                    attrs: {
+                      id: "The-Teams-We-Help",
+                      transform: "translate(-565.000000, -6422.000000)"
+                    }
+                  },
+                  [
+                    _c(
+                      "g",
+                      {
+                        attrs: {
+                          id: "9",
+                          transform: "translate(0.000000, 6112.000000)"
+                        }
+                      },
+                      [
+                        _c(
+                          "g",
+                          {
+                            attrs: {
+                              id: "Content",
+                              transform: "translate(180.000000, 200.000000)"
+                            }
+                          },
+                          [
+                            _c(
+                              "g",
+                              {
+                                attrs: {
+                                  id: "Illustration",
+                                  transform: "translate(387.000000, 112.000000)"
+                                }
+                              },
+                              [
+                                _c("circle", {
+                                  ref: "circle1",
+                                  attrs: {
+                                    id: "Light",
+                                    stroke: "#FFFFFF",
+                                    "stroke-width": "2",
+                                    opacity: "0.100000001",
+                                    cx: "153",
+                                    cy: "153",
+                                    r: "154"
+                                  }
+                                }),
+                                _vm._v(" "),
+                                _c("circle", {
+                                  ref: "circle2",
+                                  attrs: {
+                                    id: "Light",
+                                    stroke: "#FFFFFF",
+                                    "stroke-width": "2",
+                                    opacity: "0.200000003",
+                                    cx: "153",
+                                    cy: "153",
+                                    r: "110"
+                                  }
+                                }),
+                                _vm._v(" "),
+                                _c(
+                                  "g",
+                                  {
+                                    attrs: {
+                                      id: "Bulb",
+                                      transform:
+                                        "translate(102.000000, 83.000000)"
+                                    }
+                                  },
+                                  [
+                                    _c("path", {
+                                      ref: "lamp",
+                                      attrs: {
+                                        d:
+                                          "M82.7822266,91.063341 C93.7699483,83.3308433 102,66.8226046 102,51 C102,22.8334778 79.1665222,0 51,0 C22.8334778,0 0,22.8334778 0,51 C0,67.2494734 7.68599757,81.5403073 19.4382422,91.063341 C27.2050781,97.3569336 31.2146168,97.3472953 31.8693265,101.934158 C31.9910659,102.787058 32.1202302,109.079354 32.1202302,109.079354 C32.1202302,109.079354 71.8556132,109.079354 71.8556132,109.020766 C71.8556132,108.962178 71.8556132,103.783302 71.8556132,102.521973 C71.8556132,98.3744361 77.8827219,94.5113177 82.7822266,91.063341 Z",
+                                        id: "Oval-12",
+                                        fill: "#FFFFFF"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("path", {
+                                      ref: "lamp_outline2",
+                                      attrs: {
+                                        d:
+                                          "M82.7822266,91.063341 C93.7699483,83.3308433 102,66.8226046 102,51 C102,22.8334778 79.1665222,0 51,0 C22.8334778,0 0,22.8334778 0,51 C0,67.2494734 7.68599757,81.5403073 19.4382422,91.063341 C27.2050781,97.3569336 31.2146168,97.3472953 31.8693265,101.934158 C32.2122396,104.336589 32.2122396,122.445778 32.2122396,126.038009 C32.2122396,131.30013 31.8693265,132.897392 37.866761,132.897392 C42.584947,132.897392 51.3384187,132.893717 52.0136623,132.897392 C52.8942387,132.902185 61.4116819,132.897392 66.3471425,132.897392 C71.8556132,132.897392 71.8556132,130.828451 71.8556132,126.038009 C71.8556132,122.250808 71.8556132,106.546824 71.8556132,102.521973 C71.8556132,98.3744361 77.8827219,94.5113177 82.7822266,91.063341 Z",
+                                        id: "Oval-12",
+                                        stroke: "#FFFFFF",
+                                        "stroke-width": "2"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("path", {
+                                      ref: "lamp_outline3",
+                                      attrs: {
+                                        d:
+                                          "M42.902697,132.796771 C42.902697,133.486646 42.902697,134.754561 42.902697,136.600518 C42.902697,139.369453 44.244685,139.087584 45.992184,139.087584 C47.739683,139.087584 56.5120659,139.087584 58.1042317,139.087584 C59.6963975,139.087584 60.9654369,139.20927 60.9654369,136.600518 C60.9654369,134.86135 60.9654369,133.593434 60.9654369,132.796771",
+                                        id: "Path-28",
+                                        stroke: "#FFFFFF",
+                                        "stroke-width": "2"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("path", {
+                                      ref: "lamp_outline4",
+                                      attrs: {
+                                        d:
+                                          "M32.5906459,108.979649 L71.3562509,108.979649",
+                                        id: "Path-29",
+                                        stroke: "#FFFFFF",
+                                        "stroke-width": "2"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("path", {
+                                      ref: "lamp_outline5",
+                                      attrs: {
+                                        d:
+                                          "M32.5906459,116.979649 L71.3562509,116.979649",
+                                        id: "Path-29",
+                                        stroke: "#FFFFFF",
+                                        "stroke-width": "2"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("path", {
+                                      ref: "lamp_outline6",
+                                      attrs: {
+                                        d:
+                                          "M32.5906459,124.979649 L71.3562509,124.979649",
+                                        id: "Path-29",
+                                        stroke: "#FFFFFF",
+                                        "stroke-width": "2"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("path", {
+                                      ref: "lamp_shadow",
+                                      attrs: {
+                                        d:
+                                          "M88.0414018,14.1811299 C65.4562288,16.4551791 53.5497645,28.9943182 52.322009,51.798547",
+                                        id: "Path-30",
+                                        stroke: "#1F3947",
+                                        "stroke-width": "2",
+                                        transform:
+                                          "translate(70.181705, 32.989838) scale(-1, 1) translate(-70.181705, -32.989838) "
+                                      }
+                                    })
+                                  ]
+                                )
+                              ]
+                            )
+                          ]
+                        )
+                      ]
+                    )
+                  ]
+                )
+              ]
+            )
+          ]
+        )
       ])
     ])
-  }
-]
+  ])
+}
+var staticRenderFns = []
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
@@ -5496,7 +5680,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         this.persons = [this.$refs.Person1, this.$refs.Person2, this.$refs.Person3, this.$refs.Person4, this.$refs.Person5, this.$refs.Person6, this.$refs.Person7, this.$refs.Person8, this.$refs.Person9, this.$refs.Person10, this.$refs.Person11, this.$refs.Person12, this.$refs.Person13, this.$refs.Person14, this.$refs.Person15, this.$refs.Person16, this.$refs.Person17, this.$refs.Person18, this.$refs.Person19, this.$refs.Person20, this.$refs.Person21, this.$refs.Person22, this.$refs.Person23, this.$refs.Person24, this.$refs.Person25, this.$refs.Person26, this.$refs.Person27, this.$refs.Person28, this.$refs.Person29, this.$refs.Person30, this.$refs.Person31, this.$refs.Person32, this.$refs.Person33, this.$refs.Person34, this.$refs.Person35, this.$refs.Person36];
 
         var update = function update() {
-            var i = Math.round(Math.random() * _this.persons.length);
+            var i = Math.abs(Math.floor(Math.random() * _this.persons.length - 1));
             _this.highLightPerson(i);
             setTimeout(function () {
                 update();
@@ -5517,6 +5701,164 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 targets: this.persons[index],
                 opacity: 0,
                 duration: 500,
+                easing: 'easeInOutSine'
+            });
+        }
+    }
+});
+
+/***/ }),
+/* 64 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_animejs__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_animejs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_animejs__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    data: function data() {
+        return {
+            backgroundEl: null,
+            titleEl: null,
+            lampEl: null,
+            lampOutlineEls: [],
+            lampShadowEl: null,
+            circleEls: []
+        };
+    },
+    mounted: function mounted() {
+        var _this = this;
+
+        this.backgroundEl = this.$refs.cover;
+        this.titleEl = this.$refs.title;
+        this.lampEl = this.$refs.lamp;
+        this.lampOutlineEls = [this.$refs.lamp_outline2, this.$refs.lamp_outline3, this.$refs.lamp_outline4, this.$refs.lamp_outline5, this.$refs.lamp_outline6];
+        this.circleEls = [this.$refs.circle1, this.$refs.circle2];
+        this.lampShadowEl = this.$refs.lamp_shadow;
+
+        var update = function update() {
+            _this.highLight();
+            setTimeout(function () {
+                update();
+            }, 2000);
+        };
+
+        update();
+    },
+
+    methods: {
+        highLight: function highLight() {
+            console.log('>> highlight');
+            __WEBPACK_IMPORTED_MODULE_0_animejs___default.a.timeline().add({
+                targets: this.backgroundEl,
+                background: '#1f3947',
+                duration: 1000,
+                easing: 'easeInOutSine'
+            }).add({
+                targets: this.backgroundEl,
+                background: '#FFFFFF',
+                duration: 1000,
+                easing: 'easeInOutSine'
+            }).add({
+                offset: 0,
+                targets: this.titleEl,
+                color: '#FFFFFF',
+                duration: 1000,
+                easing: 'easeInOutSine'
+            }).add({
+                offset: 1000,
+                targets: this.titleEl,
+                color: '#1f3947',
+                duration: 1000,
+                easing: 'easeInOutSine'
+            }).add({
+                offset: 0,
+                targets: this.lampEl,
+                fill: '#FFFFFF',
+                duration: 1000,
+                easing: 'easeInOutSine'
+            }).add({
+                offset: 1000,
+                targets: this.lampEl,
+                fill: '#1f3947',
+                duration: 1000,
+                easing: 'easeInOutSine'
+            }).add({
+                offset: 0,
+                targets: this.circleEls,
+                stroke: '#FFFFFF',
+                duration: 1000,
+                easing: 'easeInOutSine'
+            }).add({
+                offset: 1000,
+                targets: this.circleEls,
+                stroke: '#1f3947',
+                duration: 1000,
+                easing: 'easeInOutSine'
+            }).add({
+                offset: 0,
+                targets: this.lampOutlineEls,
+                stroke: '#FFFFFF',
+                duration: 1000,
+                easing: 'easeInOutSine'
+            }).add({
+                offset: 1000,
+                targets: this.lampOutlineEls,
+                stroke: '#1f3947',
+                duration: 1000,
+                easing: 'easeInOutSine'
+            }).add({
+                offset: '-=2000',
+                targets: this.lampShadowEl,
+                stroke: '#1f3947',
+                duration: 1000,
+                easing: 'easeInOutSine'
+            }).add({
+                offset: '-=2000',
+                targets: this.lampShadowEl,
+                stroke: '#FFFFFF',
+                duration: 1000,
                 easing: 'easeInOutSine'
             });
         }

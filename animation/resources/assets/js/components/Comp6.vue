@@ -261,7 +261,7 @@ export default {
         ]
 
         const update = () => {
-            const i = Math.round(Math.random() * this.persons.length)
+            const i = Math.abs(Math.floor(Math.random() * this.persons.length - 1))
             this.highLightPerson(i)
             setTimeout(() => {
                 update()
