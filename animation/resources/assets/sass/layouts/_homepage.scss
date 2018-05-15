@@ -1,0 +1,138 @@
+// ---------------------------------------------------------===
+// homepage styles
+// ---------------------------------------------------------===
+
+.nav-block {
+	height: 100vh;
+	text-align: left;
+	padding: 180px 0 100px;
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+
+	@include media('<widescreen') {
+		padding: 130px 0 100px;
+	}
+
+	@include media('<tablet') {
+		text-align: center;
+		padding: 80px 0;
+	}
+
+	.v-align {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.nav {
+		@extend %listreset;
+		font: 700 80px/1 $roboto-condensed;
+		text-transform: uppercase;
+		pointer-events: none;
+
+		@include media('<1350px') {
+			margin-left: 50px;
+		}
+
+		@include media('<desktop') {
+			font-size: 60px;
+		}
+
+		@include media('<tablet') {
+			font-size: 32px;
+			margin-left: 0;
+		}
+
+		&:hover {
+			a {
+				color: $blue-fade;
+			}
+		}
+
+		li {
+			margin: 0 0 48px;
+		}
+
+		a {
+			pointer-events: auto;
+			transition: color 0.5s linear;
+			position: relative;
+
+			&:hover {
+				color: $white;
+
+				&:after {
+					left: -27px;
+					opacity: 1;
+
+					@include media('<tablet') {
+						left: 50%;
+						top: -4px;
+					}
+				}
+
+				> span {
+					opacity: 1;
+					transform: translateY(0);
+
+				}
+			}
+
+			&:after {
+				content: '';
+				position: absolute;
+				left: 0;
+				bottom: 19px;
+				top: 19px;
+				width: 3px;
+				background: #fff;
+				opacity: 0;
+				@include animate(opacity left top);
+
+				@include media('<tablet') {
+					top: 0;
+					bottom: auto;
+					width: 65px;
+					height: 2px;
+					left: 50%;
+					transform: translateX(-50%);
+				}
+			}
+
+			> span {
+				font: 400 24px/1.2 $roboto-slab;
+				position: absolute;
+				bottom: 100%;
+				left: 0;
+				margin-bottom: -4px;
+				text-transform: none;
+				opacity: 0;
+				transform: translateY(30px);
+				@include animate(opacity transform);
+
+				@include media('<tablet') {
+					font-size: 16px;
+					right: 0;
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
+}
+
+.mountains {
+	position: absolute;
+	bottom: -100px;
+	left: 0;
+	right: 0;
+	z-index: -1;
+
+	@include media('<tablet') {
+		bottom: -2%;
+	}
+
+	img {
+		width: 100%;
+		max-width: none;
+	}
+}

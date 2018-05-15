@@ -1,0 +1,151 @@
+// ---------------------------------------------------------===
+// Common styles
+// ---------------------------------------------------------===
+
+.about-us {
+	padding: 166px 0 180px;
+
+	@include media('<desktop') {
+		padding: 125px 0 150px;
+	}
+
+	@include media('<tablet') {
+		padding: 110px 0;
+	}
+
+	.close {
+		position: absolute;
+		top: 60px;
+		left: 50%;
+		transform: translateX(-50%);
+
+		@include media('<tablet') {
+			top: 45px;
+		}
+
+		> i {
+			font-size: 32px;
+		}
+	}
+
+	.icon-loading {
+		position: absolute;
+		bottom: 80px;
+		left: 50%;
+		transform: translateX(-50%);
+
+		@include media('<tablet') {
+			bottom: 45px;
+		}
+
+		> i {
+			font-size: 32px;
+		}
+	}
+
+	.grid-flex {
+		margin-left: -10px;
+		margin-right: -10px;
+
+		@include media('<tablet') {
+			margin-left: -5px;
+			margin-right: -5px;
+		}
+
+		[class*="col-"] {
+			padding-left: 10px;
+			padding-right: 10px;
+
+			@include media('<tablet') {
+				padding-left: 5px;
+				padding-right: 5px;
+			}
+		}
+	}
+}
+
+.member {
+	margin-bottom: 45px;
+
+	@include media('<tablet') {
+		margin-bottom: 23px;
+	}
+
+	.img {
+		position: relative;
+		display: block;
+
+		.rollover {
+			position: absolute;
+			top: 0;
+			left: 0;
+			opacity: 0;
+			z-index: 1;
+			@include animate(opacity);
+		}
+
+		&:hover {
+			.rollover {
+				opacity: 1;
+			}
+		}
+
+		img {
+			width: 100%;
+			max-width: none;
+		}
+	}
+
+	.desc {
+		text-align: center;
+		padding-top: 27px;
+		line-height: 1;
+
+		@include media('<tablet') {
+			padding-top: 5px;
+		}
+	}
+
+	.name,
+	.designation {
+		display: inline-block;
+		vertical-align: middle;
+		color: #212121;
+	}
+
+	.name {
+		font: 700 28px/1 $roboto-condensed;
+		text-transform: uppercase;
+
+		@include media('<tablet') {
+			font-size: 18px;
+		}
+	}
+
+	.designation {
+		font: 400 24px/1 $roboto;
+		position: relative;
+		padding-left: 36px;
+		margin-left: 8px;
+
+		@include media('<tablet') {
+			font-size: 16px;
+			padding-left: 13px;
+			margin-left: 0;
+		}
+
+		&:after {
+			content: '';
+			position: absolute;
+			top: 50%;
+			left: 0;
+			height: 2px;
+			width: 24px;
+			background: $blue-dark;
+
+			@include media('<tablet') {
+				width: 8px;
+			}
+		}
+	}
+}

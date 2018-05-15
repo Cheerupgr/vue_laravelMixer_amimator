@@ -1,0 +1,188 @@
+.contact {
+	background: $blue-dark;
+	color: $white;
+	padding: 167px 0 123px;
+
+	@include media('<desktop') {
+		padding: 117px 0 63px;
+	}
+
+	@include media('<tablet') {
+		padding: 88px 0 30px;
+	}
+
+	h1 {
+		text-align: center;
+		font-size: 60px;
+		line-height: 1.183;
+		text-transform: uppercase;
+		margin: 0 0 94px;
+		font-family: $roboto-condensed;
+
+		@include media('<widescreen') {
+			font-size: 45px;
+			line-height: 1.222;
+			margin-bottom: 60px;
+		}
+
+
+		@include media('<desktop') {
+			font-size: 35px;
+			margin-bottom: 40px;
+			line-height: 1.286;
+		}
+
+		@include media('<desktop') {
+			font-size: 30px;
+			line-height: 1.086;
+			margin-bottom: 40px;
+		}
+
+
+
+
+	}
+
+	address {
+		font-style: normal;
+		font-size: 24px;
+		line-height: 1.417;
+
+		@include media('<desktop') {
+			font-size: 18px;
+			line-height: 1.444;
+		}
+
+		
+	}
+}
+
+.img-item {
+	@include media('<tablet') {
+		margin-bottom: 40px;
+	}
+}
+
+.img-block {
+	max-width: 1049px;
+	margin: 0 auto;
+	text-align: center;
+
+	.img {
+		margin: 0 auto 28px;
+		max-width: 201px;
+
+		@include media('<tablet') {
+			margin: 0 auto 20px;
+		}
+	}
+
+	.name {
+		font-size: 26px;
+		line-height: 1.346;
+		display: block;
+		font-weight: 700;
+		margin: 0 0 10px;
+		text-align: center;
+
+		@include media('<desktop') {
+			font-size: 20px;
+			line-height: 1.45;
+		}
+	}
+}
+
+.address-section {
+	padding: 101px 0;
+
+	@include media('<widescreen') {
+		padding: 80px 0;
+	}
+
+	@include media('<desktop') {
+		padding: 51px 0;
+	}
+
+	@include media('<tablet') {
+		text-align: center;
+	}
+}
+
+
+.address-item {
+	margin: 0 0 32px;
+
+	@include media('<tablet') {
+		margin: 0 0 25px;
+	}
+}
+
+.address {
+	font-style: normal;
+	font-size: 24px;
+	line-height: 1.167;
+
+	@include media('<tablet') {
+		font-size: 16px;
+		margin-bottom: 50px;
+	}
+
+
+	.txt-title {
+		display: block;
+		font: 22px/1.158 $roboto-slab;
+		margin: 0 0 24px;
+
+		@include media('<tablet') {
+			font-size: 20px;
+			margin-bottom: 15px;
+			margin: 0 0 10px;
+		}
+
+	}
+
+	strong {
+		margin: 0 0 13px;
+		display: block;
+	}
+}
+
+.address-block {
+	max-width: 735px;
+	margin: 0 auto;
+
+	@include media('<tablet') {
+		max-width: 360px;
+	}
+}
+
+.btn-linkedin {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.2;
+
+	span {
+		font-size: 21px;
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 5px;
+		margin-top: 3px;
+	}
+}
+
+.form-title {
+	display: block;
+	font: 22px/1.158 $roboto-slab;
+	margin: 0 0 11px;
+}
+
+
+
+.small-form {
+	max-width: 343px;
+
+	@include media('<tablet') {
+		max-width: none;
+	}
+}
+

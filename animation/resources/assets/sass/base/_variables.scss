@@ -1,0 +1,71 @@
+// ---------------------------------------------------------===
+// Variables
+// ---------------------------------------------------------===
+
+// Colors
+$black: #333;
+$light-blue: #39f;
+
+$blue-dark: #1f3947;
+$blue-fade: #788890;
+$white: #fff;
+$blue: #1E88E5;
+$green: #66BB6A;
+$gray: #f6f7f8;
+
+$font-path: "../../resources/assets/fonts";
+$icomoon-font-path: "#{$font-path}/icomoon";
+$image-path: "../../images";
+
+$roboto-condensed: 'Roboto Condensed', 'Arial', 'Helvetica', sans-serif;
+$roboto-slab: 'Roboto Slab', 'Arial', 'Helvetica', sans-serif;
+$roboto: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+$base-font-sans-serif: $roboto;
+$base-font-serif: 'Times New Roman', 'Times', 'Baskerville', 'Georgia', serif;
+
+// Body
+$base-text-color: $black !default;
+$base-background-color: $white;;
+$font-size-base: 24px !default;
+$line-height-base: 1.666 !default;
+$base-font-family: $base-font-sans-serif !default;
+
+$vertical-rhythm: ($line-height-base * 1em);
+
+$base-min-width: 320px;
+
+// Liks
+$base-link-color: $blue-dark;
+
+// Buttons 
+$btn-color: $white !default;
+$btn-background: $black !default;
+$btn-padding: 0.4em 0.7em !default;
+$btn-font-size: inherit !default;
+
+// Forms
+$form-element-padding: $btn-padding !default;
+$form-element-border-color: $blue-fade !default;
+$form-element-focus-border-color: $black !default;
+$placeholder-color: $blue-fade !default;
+
+// Headers
+$h1-font-size: 30px !default;
+$h2-font-size: 27px !default;
+$h3-font-size: 24px !default;
+$h4-font-size: 21px !default;
+$h5-font-size: 17px !default;
+$h6-font-size: 15px !default;
+
+$headings-font-family: inherit !default;
+$headings-color: inherit !default;
+
+
+$animation-speed: 0.3s;
+
+// grid 
+$usegrid: true;
+$gutter-width: 30px;  // gutter for desktop greater than 768
+$gutter-width-mobile: 30px;  // gutter for mobiles
+$container-width: 1240px;
+$grid-count: 12;

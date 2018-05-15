@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="325px" height="211px" viewBox="0 0 325 211" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Illustration, based on iStock 668562138</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mayven-2.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="The-Teams-We-Help" transform="translate(-625.000000, -12777.000000)">
+            <g id="17" transform="translate(0.000000, 12224.000000)">
+                <g id="Content" transform="translate(437.000000, 229.000000)">
+                    <g id="Illustration,-based-on-iStock-668562138" transform="translate(176.000000, 324.000000)">
+                        <g id="Cloud" transform="translate(13.000000, 169.000000)" stroke="#FFFFFF" stroke-width="2">
+                            <path d="M0.493649449,42.6743811 C0.363139449,33.8986829 3.45485383,28.0719015 9.76879259,25.1940369 C16.0827313,22.3161724 22.5364405,23.7551046 29.1299201,29.5108338 C32.4641201,21.5926577 38.1950997,17.6335696 46.3228587,17.6335696 C54.4506177,17.6335696 59.9938191,22.4542283 62.952463,32.0955457 C65.6378688,21.7137905 71.4856292,16.5229129 80.4957442,16.5229129 C89.5058592,16.5229129 95.3386371,20.8522199 97.994078,29.5108338 C104.098739,24.7927671 109.87036,23.3538348 115.30894,25.1940369 C120.747521,27.034239 124.133328,31.3447567 125.466362,38.1255899 C126.796635,32.3848637 129.943888,28.3101063 134.908121,25.9013176 C139.872353,23.492529 145.732045,24.3618051 152.487195,28.5091461 C156.70074,20.518324 162.433008,16.5229129 169.683997,16.5229129 C180.560481,16.5229129 190.616509,23.8587746 186.841777,42.6743811" id="Path-67"></path>
+                            <path d="M45.5849451,17.2535753 C46.7668409,6.84516199 52.6782828,1.14035873 63.319271,0.139165518 C79.2807532,-1.36262429 81.3386674,16.1299761 82.1305972,16.1299761 C82.9225269,16.1299761 87.1807193,3.00655816 99.1564587,3.90433894 C107.140285,4.50285947 111.851881,9.27251272 113.291247,18.2132987 C118.722252,10.1479598 125.234738,7.15086969 132.828707,9.22202833 C144.219661,12.3287663 145.491688,23.9732301 145.491858,25.9274154" id="Path-68"></path>
+                        </g>
+                        <g id="Rocket" transform="translate(1.000000, 0.000000)">
+                            <path d="M87.6135105,172.937666 L87.6135105,146.684067" id="Path-69" stroke="#FFFFFF" stroke-width="2"></path>
+                            <path d="M101.466168,160.134112 L101.466168,175.777567" id="Path-70" stroke="#FFFFFF" stroke-width="2"></path>
+                            <path d="M71.4661678,146.134112 L71.4661678,161.777567" id="Path-70" stroke="#FFFFFF" stroke-width="2"></path>
+                            <path d="M132.466168,152.134112 L132.466168,162.780273" id="Path-70" stroke="#FFFFFF" stroke-width="2"></path>
+                            <path d="M115.490027,138.746746 L115.490027,173.824141" id="Path-71" stroke="#FFFFFF" stroke-width="2"></path>
+                            <rect id="Rectangle-76" fill="#FFFFFF" x="262" y="131" width="2" height="80"></rect>
+                            <rect id="Rectangle-76" fill="#FFFFFF" x="334" y="131" width="2" height="80"></rect>
+                            <rect id="Rectangle-77" fill="#FFFFFF" x="264" y="131" width="70" height="38"></rect>
+                            <text id="00:07" font-family="RobotoMono-Bold, Roboto Mono" font-size="20" font-weight="bold" fill="#1F3947">
+                                <tspan x="269.495117" y="157">00:07</tspan>
+                            </text>
+                            <path d="M101.276623,83.6809432 L101.276623,142.782142" id="Path-72" stroke="#FFFFFF" stroke-width="2"></path>
+                            <polyline id="Path-75" stroke="#FFFFFF" stroke-width="2" points="72.9826886 83 56 143 101.021262 127.937153 146 143 129.951361 83"></polyline>
+                            <path d="M82,22 L121,22" id="Path-77" stroke="#FFFFFF" stroke-width="2"></path>
+                            <path d="M95.0732141,130 C59.5744571,76.4426348 61.933631,33.4409027 102.150736,0.994803762" id="Path-76" stroke="#FFFFFF" stroke-width="2"></path>
+                            <path d="M126.098195,130 C90.3654343,76.4402366 92.6431459,33.4375902 132.93133,0.992060702" id="Path-76" stroke="#FFFFFF" stroke-width="2" transform="translate(116.917936, 65.496030) scale(-1, 1) translate(-116.917936, -65.496030) "></path>
+                            <circle id="Oval-7" stroke="#FFFFFF" stroke-width="2" fill="#1F3947" cx="101" cy="45" r="12"></circle>
+                            <circle id="Oval-7" stroke="#FFFFFF" stroke-width="2" fill="#FFFFFF" cx="101" cy="45" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

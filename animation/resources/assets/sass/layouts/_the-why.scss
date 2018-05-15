@@ -1,0 +1,122 @@
+// ---------------------------------------------------------===
+// the team we help style
+// ---------------------------------------------------------===
+
+.why-section {
+	.win-height {
+		padding: 100px 0 120px;
+		position: relative;
+		display: table;
+		min-height: 100vh;
+		table-layout: fixed;
+		width: 100%;
+		text-align: center;
+		
+		@include media('<tablet') {
+			padding: 80px 0 90px;
+		}
+	}
+
+	.inner-content {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.title {
+		font: 400 34px/1.2 $roboto-slab;
+		display: block;
+
+		@include media('<tablet') {
+			font-size: 24px;
+		}
+	}
+
+	.close,
+	.link-down {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		font-size: 30px;
+	}
+	
+	.close {
+		top: 30px;
+		position: fixed;
+	}
+
+	.link-down {
+		bottom: 30px;
+	}
+
+	.logo {
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 41px;
+
+		@include media('<tablet') {
+			width: 200px;
+			margin: 25px auto 0;
+		}
+	}
+
+	.text-wrap {
+		max-width: 1200px;
+		padding: 0 15px;
+		margin: 0 auto;
+	}
+
+	.text {
+		font: 700 60px/1.183 $roboto-condensed;
+		text-transform: uppercase;
+
+		@include media('<desktop') {
+			font-size: 50px;
+		}
+		
+		@include media('<tablet') {
+			font-size: 30px;
+		}
+
+		br {
+			@include media('<widescreen') {
+				display: none;
+			}
+		}
+	}
+
+	.img {
+		width: 100%;
+		padding: 0 15px;
+		margin-top: 120px;
+
+		@include media('<tablet') {
+			max-width: 300px;
+			margin: 50px auto 0;
+		}
+
+		&.is-absolute {
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			margin-top: 0;
+		}
+	}
+
+	.img-xl {
+		padding: 0;
+
+		@include media('<tablet') {
+			max-width: none;
+		}
+
+		img {
+			width: 100%;
+			max-width: none;
+		}
+	}
+
+	.align-l {
+		text-align: left;
+	}
+}

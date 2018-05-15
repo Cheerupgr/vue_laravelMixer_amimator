@@ -1,0 +1,797 @@
+// ---------------------------------------------------------===
+// Common styles
+// ---------------------------------------------------------===
+.theme-taxact {
+	background: #f9fafb;
+}
+
+.theme-airbnb {
+	background: #ff595e;
+}
+
+.theme-facebook-live {
+	background: #182d2c;
+}
+
+.theme-ibm {
+	background: #260f84;
+}
+
+.theme-mixpanel {
+	background: #110753;
+}
+
+h1.has-decor {
+	.theme-airbnb &,
+	.theme-facebook-live &,
+	.theme-ibm &,
+	.theme-mixpanel & {
+		color: $white;
+
+		&:after {
+			background: $white;
+		}
+	}
+}
+
+.product {
+	padding: 166px 0 100px;
+
+	@include media('<desktop') {
+		padding: 125px 0 77px;
+	}
+
+	@include media('<tablet') {
+		padding: 110px 0 50px;
+	}
+
+	.close {
+		position: absolute;
+		top: 60px;
+		left: 50%;
+		transform: translateX(-50%);
+
+		@include media('<tablet') {
+			top: 45px;
+		}
+
+		> i {
+			font-size: 32px;
+		}
+
+		.theme-airbnb &,
+		.theme-facebook-live &,
+		.theme-ibm &,
+		.theme-mixpanel & {
+			color: $white;
+
+			&:hover {
+				opacity: 0.7;
+			}
+		}
+	}
+}
+
+.product-desc {
+	.banner-img {
+		margin-bottom: -47.5%;
+
+		@include media('<widescreen') {
+			margin: 0 -15px -47.5%;
+		}
+
+		@include media('<tablet') {
+			display: none;
+		}
+	}
+
+	.content {
+		max-width: 1020px;
+		margin: 0 auto;
+		background: $white;
+		position: relative;
+		z-index: 1;
+		padding: 62px 62px 0;
+
+		@include media('<tablet') {
+			padding: 60px 20px 0;
+		}
+
+		.theme-ibm & {
+			padding-top: 120px;
+
+			@include media('<tablet') {
+				padding-top: 70px;
+			}
+		}
+
+		.close {
+			@include size(64px);
+			background-color: $blue-dark;
+			line-height: 64px;
+			display: block;
+			text-align: center;
+			color: $white;
+			position: absolute;
+			right: 0;
+			top: 0;
+			left: auto;
+			transform: none;
+
+			@include media('<tablet') {
+				@include size(40px);
+				line-height: 1;
+			}
+
+			.theme-taxact & {
+				background-color: #f20000;
+			}
+
+			.theme-airbnb & {
+				background-color: #ff595e;
+			}
+
+			.theme-facebook-live & {
+				background-color: #4267b2;
+			}
+
+			.theme-ibm & {
+				background-color: #3b1eb2;
+			}
+
+			.theme-mixpanel & {
+				background-color: #110753;
+			}
+
+			&:hover {
+				opacity: 0.7;
+			}
+
+			> i {
+				line-height: 64px;
+				font-size: 18px;
+
+				@include media('<tablet') {
+					line-height: 40px;
+					font-size: 15px;
+				}
+			}
+		}
+
+		.header {
+			padding-bottom: 87px;
+			position: relative;
+			margin: 0 0 57px;
+
+			@include media('<desktop') {
+				padding-bottom: 72px;
+			}
+
+			@include media('<tablet') {
+				text-align: center;
+				padding-bottom: 30px;
+			}
+
+			&:after {
+				content: '';
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				height: 2px;
+				width: 64px;
+				background: $blue-dark;
+
+				@include media('<tablet') {
+					left: 50%;
+					transform: translateX(-50%);
+				}
+			}
+
+			.btn-o {
+				position: absolute;
+				right: 0;
+				bottom: 25px;
+
+				@include media('<tablet') {
+					position: static;
+				}
+
+				&:hover {
+					color: $white;
+					background: #798891;
+					border-color: #798891;
+				}
+
+				> i {
+					font-size: 15px;
+					display: inline-block;
+					vertical-align: middle;
+					margin: -2px 0 2px 6px;
+				}
+
+				.theme-taxact & {
+					color: #f20000;
+					border-color: #f20000;
+					background: $white;
+
+					&:hover {
+						color: $white;
+						background: #f20000;
+					}
+				}
+
+				.theme-airbnb & {
+					color: #ff585b;
+					border-color: #ff585b;
+					background: $white;
+
+					&:hover {
+						color: $white;
+						background: #ff585b;
+					}
+				}
+
+				.theme-facebook-live & {
+					color: #4267b2;
+					border-color: #4267b2;
+					background: $white;
+
+					&:hover {
+						color: $white;
+						background: #4267b2;
+					}
+				}
+
+				.theme-ibm & {
+					color: #3b1eb2;
+					border-color: #3b1eb2;
+					background: $white;
+
+					&:hover {
+						color: $white;
+						background: #3b1eb2;
+					}
+				}
+
+				.theme-mixpanel & {
+					color: #38137f;
+					border-color: #38137f;
+					background: $white;
+
+					&:hover {
+						color: $white;
+						background: #38137f;
+					}
+				}
+			}
+
+			.logo {
+				@include media('<tablet') {
+					margin: 0 0 20px;
+				}
+
+				.theme-airbnb & {
+					margin-bottom: -46px;
+
+					@include media('<tablet') {
+						margin-bottom: 20px;
+					}
+				}
+			}
+		}
+	}
+
+	.intro-block {
+		display: flex;
+		align-items: flex-start;
+
+		@include media('<tablet') {
+			display: block;
+			text-align: center;
+			margin: 0 0 20px;
+		}
+
+		.text {
+			width: 52%;
+
+			.theme-ibm & {
+				@include media('>=desktop') {
+					width: 62%;
+				}
+			}
+
+
+			@include media('<tablet') {
+				width: 100%;
+			}
+		}
+
+		h2 {
+			text-transform: uppercase;
+			padding-right: 95px;
+			
+			@include media('<desktop') {
+				padding-right: 30px;
+			}
+
+			@include media('<tablet') {
+				padding: 0;
+			}
+
+			.theme-ibm &,
+			.theme-mixpanel & {
+
+				@include media('>tablet') {
+					font-size: 45px;
+				}
+
+				@include media('>=desktop') {
+					font-size: 64px;
+					text-transform: none;
+					padding-right: 50px;
+					margin: 0;
+				}
+			}
+
+			.theme-mixpanel & {
+				@include media('>desktop') {
+					margin-top: 20px;
+				}
+			}
+		}
+
+		.headline {
+			font: 700 26px/1.61 $roboto;
+			color: $blue-dark;
+			padding-right: 40px;
+			display: block;
+
+			@include media('<tablet') {
+				font-size: 20px;
+				margin-bottom: 30px;
+			}
+		}
+
+		.s-title {
+			font: 700 36px/1.1 $roboto;
+			margin: 0 30px 10px 0;
+			display: block;
+
+			@include media('<tablet') {
+				font-size: 22px;
+				margin: 0 0 20px;
+			}
+		}
+
+		.img,
+		.video {
+			flex: 1;
+			border-radius: 6px;
+			overflow: hidden;
+
+			img {
+				width: 100%;
+				max-width: none;
+			}
+		}
+
+		.video {
+			position: relative;
+
+			.play-btn {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 80px;
+				cursor: pointer;
+				transition: opacity 0.25s linear;
+
+				&:hover {
+					opacity: 0.8;
+				}
+
+			}
+		}
+
+		h2 {
+			@include media('<tablet') {
+				margin-bottom: 30px;
+			}
+		}
+	}
+
+	.info-desc {
+		padding-left: 300px;
+		padding-right: 40px;
+		position: relative;
+		margin: 0 0 100px;
+
+		@include media('<desktop') {
+			padding-left: 200px;
+			margin: 0 0 70px;
+		}
+
+		@include media('<tablet') {
+			padding: 0;
+			margin: 0 0 40px;
+		}
+
+		.img {
+			margin: 36px 0;
+
+			@include media('<tablet') {
+				margin: 20px 0;
+			}
+
+			&.full-width {
+				margin: 89px -102px 0 -362px;
+
+				@include media('<desktop') {
+					margin-left: -262px;
+				}
+
+				@include media('<tablet') {
+					margin: 20px 0;
+				}
+
+				img {
+					width: 100%;
+					max-width: none;
+				}
+			}
+		}
+	}
+
+	.text-block {
+		padding-top: 85px;
+
+		@include media('<desktop') {
+			padding-top: 60px;
+		}
+
+		@include media('<tablet') {
+			padding-top: 20px;
+		}
+
+		h3 {
+			margin: 0 0 10px;
+
+			@include media('>=tablet') {
+				display: none;
+			}
+
+			.theme-taxact & {
+				color: #f20000;
+			}
+
+			.theme-airbnb & {
+				color: #ff585b;
+			}
+
+			.theme-facebook-live & {
+				color: #4267b2;
+			}
+
+			.theme-ibm & {
+				color: #3b1eb2;
+			}
+		}
+	}
+
+	.side-nav {
+		@extend %listreset;
+		position: absolute;
+		top: 85px;
+		left: 0;
+		font-family: $roboto-condensed;
+		font-size: 36px;
+		font-weight: 700;
+		width: 230px;
+		text-align: center;
+		padding: 0 10px;
+		z-index: 9;
+		background: $white;
+
+		@include media('<desktop') {
+			width: 170px;
+			font-size: 26px;
+			top: 60px;
+		}
+
+		@include media('<tablet') {
+			display: none;
+		}
+
+		&:after {
+			content: '';
+			position: absolute;
+			top: 10px;
+			bottom: 10px; 
+			right: 0;
+			background: $blue-dark;
+			width: 2px;
+
+			@include media('<tablet') {
+				height: 1px;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				width: auto;
+				top: auto;
+			}
+		}
+
+		li {
+
+			@include media('<tablet') {
+				display: inline-block;
+				vertical-align: top;
+				padding: 0 4px;
+			}
+
+			a {
+				color: #d2d7da;
+
+				&:hover {
+					color: $blue-dark;
+				}
+
+				.theme-taxact &:hover{
+					color: #f20000;
+				}
+
+				.theme-airbnb &:hover{
+					color: #ff585b;
+				}
+
+				.theme-facebook-live &:hover{
+					color: #4267b2;
+				}
+
+				.theme-ibm &:hover{
+					color: #3b1eb2;
+				}
+
+				.theme-mixpanel &:hover{
+					color: #38137f;
+				}
+
+			}
+
+			&.active a {
+				color: $blue-dark;
+
+				.theme-taxact &{
+					color: #f20000;
+				}
+
+				.theme-airbnb &{
+					color: #ff585b;
+				}
+
+				.theme-facebook-live &{
+					color: #4267b2;
+				}
+
+				.theme-ibm &{
+					color: #3b1eb2;
+				}
+
+				.theme-mixpanel &{
+					color: #38137f;
+				}
+			}
+		}
+	}
+}
+
+.case-studies {
+	margin: 0 -62px;
+
+	@include media('<tablet') {
+		margin: 0;
+	}
+
+	h3 {
+		text-align: center;
+		text-transform: uppercase;
+		font-family: $roboto-condensed;
+		margin: 0 0 32px;
+	}
+
+	.cards {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.card {
+		width: 33.333%;
+		position: relative;
+		color: $white;
+		@include v-align(340px, bottom, after);
+		text-align: left;
+
+		@include media('<desktop') {
+			&:after {
+				min-height: 300px;
+			}
+		}
+
+		@include media('<tablet') {
+			width: 100%;
+
+			&:after {
+				display: none;
+			}
+		}
+
+		.title {
+			font: 500 34px/1.294 $roboto;
+			display: block;
+			margin: 0 0 33px;
+			max-width: 225px;
+
+			@include media('<desktop') {
+				font-size: 28px;
+			}
+		}
+
+		.btn-more {
+			font: 700 20px/1 $roboto-condensed;
+
+			&:before {
+				display: none;
+			}
+
+			&:hover {
+				color: $white;
+			}
+		}
+	}
+
+	.v-align {
+		padding: 36px 34px;
+		text-align: left;
+
+		@include media('<desktop') {
+			padding: 36px 20px;
+		}
+
+		@include media('<tablet') {
+			display: block;
+		}
+	}
+}
+
+.info-pannel {
+	display: inline-block;
+	vertical-align: top;
+	border: 2px solid #eaeef0;
+	font: 400 24px/1.2 $roboto;
+	padding: 30px 50px;
+	text-align: center;
+	margin: 0 0 100px;
+
+	@include media('<tablet') {
+		font-size: 18px;
+		padding: 25px 50px;
+		margin: 0 0 60px;
+	}
+}
+
+.link-underline {
+	font-weight: 700;
+	color: $blue-dark;
+	text-decoration: underline;
+
+	.theme-airbnb & {
+		color: #ff585b;
+	}
+
+	.theme-facebook-live & {
+		color: #4267b2;
+	}
+
+	.theme-ibm & {
+		color: #3b1eb2;
+	}
+
+	.theme-mixpanel & {
+		color: #38137f;
+	}
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.quote {
+	display: block;
+	margin: 0 0 1em;
+	padding-left: 40px;
+	position: relative;
+
+	@include media('<tablet') {
+		padding-left: 30px;
+	}
+
+	&:after {
+		content: '';
+		position: absolute;
+		top: 7px;
+		bottom: 7px;
+		left: 0;
+		width: 2px;
+		background: #d2d7da;
+
+	}
+
+	q {
+		display: block;
+		font-style: italic;
+	}
+}
+
+.checked-list {
+	@extend %listreset;
+	margin: 0 0 34px;
+
+	li {
+		padding-left: 54px;
+		margin: 0 0 25px;
+		position: relative;
+
+		@include media('<tablet') {
+			padding-left: 42px;
+		}
+
+		&:before {
+			content: "\e90a";
+			font: 22px/1 icomoon;
+			position: absolute;
+			top: 6px;
+			left: 0;
+			color: #3b1eb2;
+
+			@include media('<tablet') {
+				top: 4px;
+			}
+		}
+
+		.title {
+			display: block;
+			font-weight: 700;
+			margin: 0 0 10px;
+		}
+	}
+}
+
+.ordered-list {
+	@extend %listreset;
+	counter-reset: section;
+
+	li {
+		position: relative;
+		padding-left: 80px;
+		margin: 0 0 20px;
+
+		&:before {
+			counter-increment: section;
+			content: "" counter(section) "";
+			width: 55px;
+			height: 50px;
+			background: url('#{$image-path}/bullet.svg') no-repeat 0 0/contain;
+			position: absolute;
+			left: 0;
+			top: 7px;
+			display: block;
+			color: $white;
+			text-align: center;
+			line-height: 50px;
+			padding-right: 3px;
+			font-size: 30px;
+
+		}
+	}
+}
